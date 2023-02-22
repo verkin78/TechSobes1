@@ -26,11 +26,11 @@ public class ArrayAndSet {
 
     public static void printFriend() {
         addFriend();
-        System.out.println(friend);
+        System.out.println("Список друзей: " + friend);
     }
 
     public static void printMoreFriend() {
         addMoreFriend();
-        System.out.println(moreFriend);
+        System.out.println("Дополнительный список друзей: " + moreFriend);
     }
 }
