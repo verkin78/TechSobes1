@@ -7,7 +7,7 @@ public class Main {
         ArrayAndSet.printFriend();
         ArrayAndSet.printMoreFriend();
         Param.employeeByIndex();
-        Number.number();
-        Number.numbers();
+        Number.getNumber();
+        //Number.getNumbers();
     }
 }

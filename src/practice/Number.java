@@ -5,22 +5,22 @@ import java.util.Collections;
 import java.util.stream.IntStream;
 
 public class Number {
-    public static void number(String[] args) {
+    public static void getNumber() {
         // 1 вариант
         int[] number = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        System.out.println(Arrays.toString(number));
-        int[] b = IntStream.rangeClosed(1, number.length)
+        System.out.println("Массив чисел: " + Arrays.toString(number));
+        int[] numberB = IntStream.rangeClosed(1, number.length)
                 .map(i -> number[number.length - i])
                 .toArray();
-        System.out.println(Arrays.toString(b));
+        System.out.println("Обратный массив чисел: " + Arrays.toString(numberB));
     }
 
-        public static void numbers(String[] args) {
+        public static void getNumbers() {
         //2 Вариант
         Integer[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        System.out.println(Arrays.toString(numbers));
+        System.out.println("Массив чисел: " + Arrays.toString(numbers));
         Collections.reverse(Arrays.asList(numbers));
-        System.out.println(Arrays.toString(numbers));
+        System.out.println("Обратный массив чисел: " + Arrays.toString(numbers));
 
     }
 }
